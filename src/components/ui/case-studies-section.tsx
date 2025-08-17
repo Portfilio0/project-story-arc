@@ -9,26 +9,26 @@ import caseStudy3 from "@/assets/case-study-3.jpg";
 const caseStudies = [
   {
     id: 1,
-    title: "Analytics Dashboard",
-    description: "A comprehensive web application for data visualization and business intelligence.",
+    title: "FinTech Analytics Dashboard",
+    description: "Redesigned complex financial data interface, improving user task completion by 65% through intuitive information architecture.",
     image: caseStudy1,
-    tags: ["React", "TypeScript", "D3.js"],
+    tags: ["User Research", "Figma", "Prototyping"],
     slug: "analytics-dashboard"
   },
   {
     id: 2,
-    title: "E-Commerce Mobile App",
-    description: "Modern mobile shopping experience with seamless user interface.",
+    title: "E-Commerce Mobile Experience",
+    description: "Created seamless shopping journey reducing cart abandonment by 40% through user-centered design and A/B testing.",
     image: caseStudy2,
-    tags: ["React Native", "Node.js", "MongoDB"],
+    tags: ["Mobile UX", "Journey Mapping", "A/B Testing"],
     slug: "ecommerce-app"
   },
   {
     id: 3,
-    title: "SaaS Platform",
-    description: "Enterprise-grade platform for project management and team collaboration.",
+    title: "SaaS Team Collaboration Platform",
+    description: "Designed enterprise workflow solution increasing team productivity by 45% through streamlined user experience.",
     image: caseStudy3,
-    tags: ["Next.js", "PostgreSQL", "AWS"],
+    tags: ["Design Systems", "User Personas", "Wireframing"],
     slug: "saas-platform"
   }
 ];
@@ -39,10 +39,10 @@ const CaseStudiesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Projects</span>
+            Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Case Studies</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explore my latest work showcasing innovative solutions and creative design.
+            Real design challenges solved through user research, iteration, and data-driven decisions.
           </p>
         </div>
         

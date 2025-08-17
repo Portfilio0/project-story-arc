@@ -10,28 +10,28 @@ import caseStudy3 from "@/assets/case-study-3.jpg";
 const allCaseStudies = [
   {
     id: 1,
-    title: "Analytics Dashboard",
-    description: "A comprehensive web application for data visualization and business intelligence with real-time analytics.",
+    title: "FinTech Analytics Dashboard",
+    description: "Redesigned complex financial data interface through user research and iterative testing, improving task completion rates by 65%.",
     image: caseStudy1,
-    tags: ["React", "TypeScript", "D3.js", "Node.js"],
+    tags: ["User Research", "Figma", "Prototyping", "Usability Testing"],
     slug: "analytics-dashboard",
     year: "2024"
   },
   {
     id: 2,
-    title: "E-Commerce Mobile App",
-    description: "Modern mobile shopping experience with seamless user interface and advanced payment integration.",
+    title: "E-Commerce Mobile Experience",
+    description: "Created seamless shopping journey using customer journey mapping and A/B testing, reducing cart abandonment by 40%.",
     image: caseStudy2,
-    tags: ["React Native", "Node.js", "MongoDB", "Stripe"],
+    tags: ["Mobile UX", "Journey Mapping", "A/B Testing", "Sketch"],
     slug: "ecommerce-app",
     year: "2023"
   },
   {
     id: 3,
-    title: "SaaS Platform",
-    description: "Enterprise-grade platform for project management and team collaboration with advanced features.",
+    title: "SaaS Team Collaboration Platform",
+    description: "Designed enterprise workflow solution through design thinking methodology, increasing team productivity by 45%.",
     image: caseStudy3,
-    tags: ["Next.js", "PostgreSQL", "AWS", "Redis"],
+    tags: ["Design Systems", "User Personas", "Wireframing", "Adobe XD"],
     slug: "saas-platform",
     year: "2024"
   }

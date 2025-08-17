@@ -9,81 +9,84 @@ import caseStudy3 from "@/assets/case-study-3.jpg";
 
 const caseStudyData = {
   "analytics-dashboard": {
-    title: "Analytics Dashboard",
-    subtitle: "Data Visualization & Business Intelligence Platform",
-    description: "A comprehensive web application designed to help businesses make data-driven decisions through intuitive visualizations and real-time analytics.",
+    title: "FinTech Analytics Dashboard",
+    subtitle: "Financial Data Interface Redesign",
+    description: "Redesigned a complex financial analytics platform to improve usability and decision-making speed for financial professionals through user-centered design.",
     image: caseStudy1,
-    tags: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+    tags: ["User Research", "Figma", "Prototyping", "Usability Testing", "Data Visualization"],
     year: "2024",
     duration: "4 months",
-    role: "Full-Stack Developer & UI/UX Designer",
-    challenge: "The client needed a way to visualize complex business data from multiple sources in real-time. The existing reporting system was outdated and couldn't handle the volume of data or provide the interactive experience users needed.",
-    solution: "I developed a modern dashboard using React and TypeScript for the frontend, with D3.js for custom data visualizations. The backend was built with Node.js and PostgreSQL to handle real-time data processing and API management.",
+    role: "Lead UX Designer & Researcher",
+    challenge: "Financial professionals were struggling with a complex legacy dashboard that took 15+ minutes to generate basic reports. User research revealed 78% of users found the interface confusing and error-prone, leading to costly decision delays.",
+    solution: "I conducted extensive user interviews, journey mapping, and usability testing to redesign the information architecture. Created interactive prototypes in Figma, established a new design system, and implemented progressive disclosure to simplify complex workflows.",
     results: [
-      "40% increase in user engagement with business reports",
-      "60% reduction in time spent generating insights",
-      "Real-time data processing for 10,000+ records per second",
-      "Mobile-responsive design with 95% user satisfaction"
+      "65% improvement in task completion rates",
+      "80% reduction in user errors during report generation",
+      "Time to insight decreased from 15 minutes to 3 minutes",
+      "User satisfaction increased from 2.1/5 to 4.7/5",
+      "95% of users completed onboarding without support"
     ],
     features: [
-      "Interactive data visualizations with D3.js",
-      "Real-time dashboard updates",
-      "Custom report generation",
-      "User role-based access control",
-      "Export functionality (PDF, Excel, CSV)",
-      "Mobile-responsive design"
+      "Intuitive dashboard with progressive disclosure",
+      "Custom data visualization components",
+      "Smart filtering and search functionality",
+      "Role-based interface customization",
+      "Interactive onboarding flow",
+      "Responsive design for mobile analysts"
     ]
   },
   "ecommerce-app": {
-    title: "E-Commerce Mobile App",
-    subtitle: "Modern Shopping Experience",
-    description: "A sleek mobile application that revolutionizes online shopping with an intuitive interface and seamless payment integration.",
+    title: "E-Commerce Mobile Experience",
+    subtitle: "Shopping Journey Optimization",
+    description: "Redesigned mobile shopping experience using customer journey mapping and behavioral analytics to create a friction-free purchase flow.",
     image: caseStudy2,
-    tags: ["React Native", "Node.js", "MongoDB", "Stripe", "Firebase"],
+    tags: ["Mobile UX", "Journey Mapping", "A/B Testing", "Sketch", "User Analytics"],
     year: "2023",
     duration: "6 months",
-    role: "Mobile App Developer & UI/UX Designer",
-    challenge: "The client wanted to enter the mobile commerce space with a app that could compete with major e-commerce platforms while providing a unique, branded experience for their customers.",
-    solution: "I created a cross-platform mobile app using React Native, with a Node.js backend and MongoDB database. Integrated Stripe for payments and Firebase for real-time notifications and user authentication.",
+    role: "Senior UX Designer & Researcher",
+    challenge: "The mobile app had a 68% cart abandonment rate and low user retention. Customer feedback revealed frustration with navigation, checkout flow, and product discovery. The brand was losing market share to competitors.",
+    solution: "I conducted user interviews, analyzed behavioral data, and created detailed customer journey maps. Designed and tested multiple checkout flow prototypes, simplified navigation through card sorting, and implemented personalized product recommendations.",
     results: [
-      "50,000+ app downloads in first month",
-      "25% higher conversion rate vs web platform",
-      "4.8/5 star rating on app stores",
-      "30% increase in customer retention"
+      "40% reduction in cart abandonment rate",
+      "35% increase in mobile conversion rates",
+      "50% improvement in user session duration",
+      "4.8/5 average app store rating (up from 3.2/5)",
+      "25% increase in repeat purchase behavior"
     ],
     features: [
-      "Cross-platform mobile app (iOS & Android)",
-      "Secure payment processing with Stripe",
-      "Real-time order tracking",
-      "Push notifications for offers and updates",
-      "Wishlist and favorites functionality",
-      "Social media integration"
+      "Streamlined checkout flow (6 steps to 3)",
+      "Intelligent product recommendation engine",
+      "Visual search and filtering system",
+      "One-touch reordering functionality",
+      "Personalized wishlist with sharing",
+      "Progressive web app capabilities"
     ]
   },
   "saas-platform": {
-    title: "SaaS Platform",
-    subtitle: "Project Management & Team Collaboration",
-    description: "An enterprise-grade platform that streamlines project management and enhances team collaboration with advanced features and integrations.",
+    title: "SaaS Team Collaboration Platform",
+    subtitle: "Enterprise Workflow Design",
+    description: "Designed comprehensive team collaboration platform using design thinking methodology to streamline complex enterprise workflows and boost productivity.",
     image: caseStudy3,
-    tags: ["Next.js", "PostgreSQL", "AWS", "Redis", "WebSocket"],
+    tags: ["Design Systems", "User Personas", "Wireframing", "Adobe XD", "Enterprise UX"],
     year: "2024",
     duration: "8 months",
-    role: "Lead Developer & Technical Architect",
-    challenge: "A growing startup needed a scalable project management solution that could handle multiple teams, complex workflows, and integrate with existing tools while maintaining high performance.",
-    solution: "Built a comprehensive SaaS platform using Next.js for the frontend, PostgreSQL for data management, AWS for cloud infrastructure, and Redis for caching. Implemented real-time collaboration features using WebSocket technology.",
+    role: "Lead UX Designer & Design Systems Architect",
+    challenge: "Enterprise teams were using 8+ different tools to manage projects, causing context switching, data silos, and collaboration breakdowns. User research showed 73% of teams felt overwhelmed by tool complexity and spent 2+ hours daily just managing workflows.",
+    solution: "I led design thinking workshops with 50+ stakeholders, created detailed user personas for different team roles, and designed a unified platform. Built a comprehensive design system, conducted extensive usability testing, and created role-specific interfaces that adapt to user needs.",
     results: [
-      "500+ teams onboarded in first quarter",
-      "99.9% uptime with auto-scaling infrastructure",
-      "45% improvement in team productivity metrics",
-      "Integration with 20+ third-party tools"
+      "45% increase in team productivity metrics",
+      "60% reduction in time spent on administrative tasks",
+      "85% user adoption rate within first month",
+      "92% of users found the interface intuitive (vs 23% with previous tools)",
+      "50% decrease in project delivery time"
     ],
     features: [
-      "Real-time collaboration and editing",
-      "Advanced project tracking and analytics",
-      "Custom workflow automation",
-      "Third-party integrations (Slack, GitHub, etc.)",
-      "Role-based permissions and security",
-      "Multi-tenant architecture"
+      "Adaptive interface based on user role and context",
+      "Comprehensive design system with 120+ components",
+      "Smart project automation and suggestions",
+      "Unified communication and file sharing",
+      "Advanced permissions and workflow customization",
+      "Cross-platform consistency (web, mobile, desktop)"
     ]
   }
 };

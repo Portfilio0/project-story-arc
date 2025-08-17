@@ -4,20 +4,20 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Sarah Johnson",
-    role: "CEO, TechStart Inc.",
-    content: "Exceptional work! The portfolio showcases incredible attention to detail and innovative design solutions.",
+    role: "Product Manager, FinanceFlow",
+    content: "The user research and design process was thorough. Our dashboard redesign increased user engagement by 60% and reduced support tickets significantly.",
     rating: 5
   },
   {
     name: "Michael Chen",
-    role: "Product Manager, Innovation Labs",
-    content: "Outstanding developer with a keen eye for design. Delivered beyond expectations on every project.",
+    role: "VP of Product, ShopEase",
+    content: "Exceptional UX design work. The mobile app redesign boosted our conversion rates by 35% and customer satisfaction scores reached an all-time high.",
     rating: 5
   },
   {
     name: "Emily Rodriguez",
-    role: "Marketing Director, GrowthCo",
-    content: "Professional, creative, and reliable. The perfect partner for our digital transformation journey.",
+    role: "CTO, TeamSync Solutions",
+    content: "Outstanding collaboration and design thinking. The new interface reduced onboarding time by 50% and our users love the intuitive workflow.",
     rating: 5
   }
 ];
