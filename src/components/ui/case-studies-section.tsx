@@ -86,7 +86,7 @@ const CaseStudiesSection = () => {
                   <Link to={`/case-study/${study.slug}`}>
                     <Button 
                       variant="ghost" 
-                      className="p-0 h-auto font-medium text-primary hover:text-primary-glow hover:text-white group/btn"
+                      className="p-2 h-auto font-medium text-primary hover:text-primary-glow group/btn"
                     >
                       View Case Study
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
