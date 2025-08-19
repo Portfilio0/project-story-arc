@@ -132,7 +132,7 @@ const CaseStudyDetail = () => {
                 Back to Case Studies
               </Link>
               
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-12">
                 <div>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {study.tags.map((tag) => (
