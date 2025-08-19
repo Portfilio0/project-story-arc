@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            Usama Hafeez
+            Noor Fatimah
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
