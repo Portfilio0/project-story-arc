@@ -26,12 +26,10 @@ const handler = async (req: Request): Promise<Response> => {
 
     console.log("Sending contact email:", { name, email });
 
-    // Send email to the portfolio owner
+    // Send email to the portfolio owner (only to verified address during testing)
     const emailResponse = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
-      to: [ "noorfatimahh070@gmail.com",
-        "work.usamahafeez@gmail.com",
-        "hafeezkardar000@gmail.com"], // Replace with your actual email
+      to: ["work.usamahafeez@gmail.com"], // Only verified address for testing
       subject: `New Contact Form Message from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
@@ -39,22 +37,42 @@ const handler = async (req: Request): Promise<Response> => {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Message:</strong></p>
         <p>${message.replace(/\n/g, '<br>')}</p>
+        <hr>
+        <p><em>Note: Contact form message from ${email}</em></p>
       `,
     });
 
-    // Send confirmation email to the sender
-    await resend.emails.send({
-      from: "Portfolio <onboarding@resend.dev>",
-      to: [email],
-      subject: "Thank you for your message!",
-      html: `
-        <h2>Thank you for contacting me, ${name}!</h2>
-        <p>I have received your message and will get back to you as soon as possible.</p>
-        <p><strong>Your message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-        <p>Best regards,<br>Portfolio</p>
-      `,
-    });
+    console.log("Portfolio owner email response:", emailResponse);
+
+    if (emailResponse.error) {
+      console.error("Failed to send email to portfolio owner:", emailResponse.error);
+      throw new Error(`Failed to send notification email: ${emailResponse.error.message}`);
+    }
+
+    // Send confirmation email to the sender (only if it's the verified address)
+    if (email === "work.usamahafeez@gmail.com") {
+      const confirmationResponse = await resend.emails.send({
+        from: "Portfolio <onboarding@resend.dev>",
+        to: [email],
+        subject: "Thank you for your message!",
+        html: `
+          <h2>Thank you for contacting me, ${name}!</h2>
+          <p>I have received your message and will get back to you as soon as possible.</p>
+          <p><strong>Your message:</strong></p>
+          <p>${message.replace(/\n/g, '<br>')}</p>
+          <p>Best regards,<br>Portfolio</p>
+        `,
+      });
+
+      console.log("Confirmation email response:", confirmationResponse);
+
+      if (confirmationResponse.error) {
+        console.error("Failed to send confirmation email:", confirmationResponse.error);
+        // Don't throw here - notification email succeeded
+      }
+    } else {
+      console.log("Skipping confirmation email - address not verified for testing");
+    }
 
     console.log("Email sent successfully:", emailResponse);
 
