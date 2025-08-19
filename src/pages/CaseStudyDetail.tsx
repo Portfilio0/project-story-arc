@@ -2,10 +2,17 @@ import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/ui/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import CaseStudyGallery from "@/components/ui/case-study-gallery";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import caseStudy1 from "@/assets/case-study-1.jpg";
+import caseStudy1Wireframe from "@/assets/case-study-1-wireframe.jpg";
+import caseStudy1Prototype from "@/assets/case-study-1-prototype.jpg";
 import caseStudy2 from "@/assets/case-study-2.jpg";
+import caseStudy2Journey from "@/assets/case-study-2-journey.jpg";
+import caseStudy2Testing from "@/assets/case-study-2-testing.jpg";
 import caseStudy3 from "@/assets/case-study-3.jpg";
+import caseStudy3DesignSystem from "@/assets/case-study-3-design-system.jpg";
+import caseStudy3Personas from "@/assets/case-study-3-personas.jpg";
 
 const caseStudyData = {
   "analytics-dashboard": {
@@ -13,6 +20,7 @@ const caseStudyData = {
     subtitle: "Financial Data Interface Redesign",
     description: "Redesigned a complex financial analytics platform to improve usability and decision-making speed for financial professionals through user-centered design.",
     image: caseStudy1,
+    images: [caseStudy1, caseStudy1Wireframe, caseStudy1Prototype],
     tags: ["User Research", "Figma", "Prototyping", "Usability Testing", "Data Visualization"],
     year: "2024",
     duration: "4 months",
@@ -40,6 +48,7 @@ const caseStudyData = {
     subtitle: "Shopping Journey Optimization",
     description: "Redesigned mobile shopping experience using customer journey mapping and behavioral analytics to create a friction-free purchase flow.",
     image: caseStudy2,
+    images: [caseStudy2, caseStudy2Journey, caseStudy2Testing],
     tags: ["Mobile UX", "Journey Mapping", "A/B Testing", "Sketch", "User Analytics"],
     year: "2023",
     duration: "6 months",
@@ -67,6 +76,7 @@ const caseStudyData = {
     subtitle: "Enterprise Workflow Design",
     description: "Designed comprehensive team collaboration platform using design thinking methodology to streamline complex enterprise workflows and boost productivity.",
     image: caseStudy3,
+    images: [caseStudy3, caseStudy3DesignSystem, caseStudy3Personas],
     tags: ["Design Systems", "User Personas", "Wireframing", "Adobe XD", "Enterprise UX"],
     year: "2024",
     duration: "8 months",
@@ -160,10 +170,9 @@ const CaseStudyDetail = () => {
                 </div>
                 
                 <div className="animate-fade-in">
-                  <img 
-                    src={study.image} 
-                    alt={study.title}
-                    className="w-full rounded-lg shadow-elegant"
+                  <CaseStudyGallery 
+                    images={study.images}
+                    title={study.title}
                   />
                 </div>
               </div>
