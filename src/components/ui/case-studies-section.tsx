@@ -100,7 +100,7 @@ const CaseStudiesSection = () => {
         
         <div className="text-center">
           <Link to="/case-studies">
-            <Button size="lg" variant="outline" className="border-primary/20 hover:border-primary hover:bg-primary/5">
+            <Button size="lg" variant="outline" className="border-primary/20 hover:border-primary hover:bg-primary/5 hover:text-white">
               View All Projects
               <ExternalLink className="ml-2 h-5 w-5" />
             </Button>
