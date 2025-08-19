@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import ThemeToggle from "@/components/ui/theme-toggle";
 
 const Navigation = () => {
   const location = useLocation();
@@ -15,7 +16,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            Portfolio
+            Usama Hafeez
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -33,6 +34,7 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
+            <ThemeToggle />
           </div>
         </div>
       </div>

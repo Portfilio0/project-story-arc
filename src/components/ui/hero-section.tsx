@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
+import profilePicture from "@/assets/profile-picture.png";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -21,11 +23,16 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            UI/UX
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Designer</span>
-            <br />& Researcher
-          </h1>
+          <div className="flex flex-col items-center mb-8">
+            <Avatar className="w-24 h-24 mb-6 animate-fade-in shadow-elegant">
+              <AvatarImage src={profilePicture} alt="Usama Hafeez" />
+              <AvatarFallback>UH</AvatarFallback>
+            </Avatar>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+              <span className="bg-gradient-primary bg-clip-text text-transparent">Usama Hafeez</span>
+              <br />UI/UX Designer & Researcher
+            </h1>
+          </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate-slide-up max-w-2xl mx-auto">
             Creating intuitive, user-centered digital experiences through research, prototyping, and data-driven design solutions.
