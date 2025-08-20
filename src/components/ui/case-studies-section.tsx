@@ -47,7 +47,7 @@ const CaseStudiesSection = () => {
           {caseStudies.map((study, index) => (
             <Card 
               key={study.id} 
-              className="group hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 border-0 bg-card/50 backdrop-blur-sm"
+              className="group hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 border border-border/20 hover:border-border/40 bg-card/50 backdrop-blur-sm"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <CardContent className="p-0">
