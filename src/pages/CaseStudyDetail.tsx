@@ -15,21 +15,21 @@ import ubank3 from "@/assets/ubank-3.jpeg";
 import ubank4 from "@/assets/ubank-4.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import braid2 from "@/assets/braid-2.jpeg";
-import mbank1 from "@/assets/meezank-bank-1.jpeg";
-import mbank2 from "@/assets/meezank-bank-2.jpeg";
-import mbank3 from "@/assets/meezank-bank-3.jpeg";
-import mbank4 from "@/assets/meezank-bank-4.jpeg";
-import mbank5 from "@/assets/meezank-bank-5.jpeg";
-import mbank6 from "@/assets/meezank-bank-6.jpeg";
-import mbank7 from "@/assets/meezank-bank-7.jpeg";
-import mbank8 from "@/assets/meezank-bank-8.jpeg";
-import mbank9 from "@/assets/meezank-bank-9.jpeg";
-import mbank10 from "@/assets/meezank-bank-10.jpeg";
-import mbank11 from "@/assets/meezank-bank-11.jpeg";
-import mbank12 from "@/assets/meezank-bank-12.jpeg";
-import mbank13 from "@/assets/meezank-bank-13.jpeg";
-import mbank13 from "@/assets/meezank-bank-14.jpeg";
-import mbank14 from "@/assets/meezank-bank-15.jpeg";
+import mbank1 from "@/assets/meezan-bank-1.jpeg";
+import mbank2 from "@/assets/meezan-bank-2.jpeg";
+import mbank3 from "@/assets/meezan-bank-3.jpeg";
+import mbank4 from "@/assets/meezan-bank-4.jpeg";
+import mbank5 from "@/assets/meezan-bank-5.jpeg";
+import mbank6 from "@/assets/meezan-bank-6.jpeg";
+import mbank7 from "@/assets/meezan-bank-7.jpeg";
+import mbank8 from "@/assets/meezan-bank-8.jpeg";
+import mbank9 from "@/assets/meezan-bank-9.jpeg";
+import mbank10 from "@/assets/meezan-bank-10.jpeg";
+import mbank11 from "@/assets/meezan-bank-11.jpeg";
+import mbank12 from "@/assets/meezan-bank-12.jpeg";
+import mbank13 from "@/assets/meezan-bank-13.jpeg";
+import mbank14 from "@/assets/meezan-bank-14.jpeg";
+import mbank15 from "@/assets/meezan-bank-15.jpeg";
 
 const caseStudyData = {
   "beatask": {
