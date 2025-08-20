@@ -39,11 +39,8 @@ const CaseStudiesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Case Studies</span>
+            My Work
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Real design challenges solved through user research, iteration, and data-driven decisions.
-          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -58,7 +55,7 @@ const CaseStudiesSection = () => {
                   <img 
                     src={study.image} 
                     alt={study.title}
-                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
                 </div>
