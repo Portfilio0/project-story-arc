@@ -25,11 +25,11 @@ const caseStudies = [
   },
   {
     id: 3,
-    title: "SaaS Team Collaboration Platform",
-    description: "Designed enterprise workflow solution increasing team productivity by 45% through streamlined user experience.",
+    title: "UBank",
+    description: "Contributed to Ubank’s mobile and web app project during its final iteration, where progress had slowed. Focused on ensuring design quality and consistency across platforms, while accelerating delivery through attention to detail and stakeholder alignment.",
     image: caseStudy3,
-    tags: ["Design Systems", "User Personas", "Wireframing"],
-    slug: "saas-platform"
+    tags: ["Figma"],
+    slug: "ubank"
   }
 ];
 

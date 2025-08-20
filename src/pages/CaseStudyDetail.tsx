@@ -65,32 +65,29 @@ const caseStudyData = {
       "High-fidelity wireframes and interactive prototypes for seamless developer handoff."
     ]
   },
-  "saas-platform": {
-    title: "SaaS Team Collaboration Platform",
-    subtitle: "Enterprise Workflow Design",
-    description: "Designed comprehensive team collaboration platform using design thinking methodology to streamline complex enterprise workflows and boost productivity.",
+  "ubank": {
+    title: "UBank",
+    subtitle: "Mobile & Web App (Final Iteration Support)",
+    description: "Contributed to Ubank’s mobile and web app project during its final iteration, where progress had slowed. Focused on ensuring design quality and consistency across platforms, while accelerating delivery through attention to detail and stakeholder alignment.",
     image: caseStudy3,
     images: [caseStudy3, caseStudy3DesignSystem, caseStudy3Personas],
-    tags: ["Design Systems", "User Personas", "Wireframing", "Adobe XD", "Enterprise UX"],
+    tags: ["Figma"],
     year: "2024",
-    duration: "8 months",
-    role: "Lead UX Designer & Design Systems Architect",
-    challenge: "Enterprise teams were using 8+ different tools to manage projects, causing context switching, data silos, and collaboration breakdowns. User research showed 73% of teams felt overwhelmed by tool complexity and spent 2+ hours daily just managing workflows.",
-    solution: "I led design thinking workshops with 50+ stakeholders, created detailed user personas for different team roles, and designed a unified platform. Built a comprehensive design system, conducted extensive usability testing, and created role-specific interfaces that adapt to user needs.",
+    duration: "4 months",
+    role: "UI UX Desginer",
+    challenge: "- The project was lagging in its final iteration, with tight deadlines and stakeholder pressure.\n- Both mobile and web screens had usability inconsistencies and visual errors.\n- Delays in reviews risked missing the release timeline.",
+    solution: "- Audited all mobile and web app flows with meticulous attention to detail.\n- Corrected small but critical errors that affected hierarchy, alignment, and usability.\n- Ensured consistency across platforms (mobile ↔ web).\n- Presented polished screens directly to stakeholders, speeding up feedback cycles.\n- Collaborated closely with the team to quickly implement feedback and finalize designs.",
     results: [
-      "45% increase in team productivity metrics",
-      "60% reduction in time spent on administrative tasks",
-      "85% user adoption rate within first month",
-      "92% of users found the interface intuitive (vs 23% with previous tools)",
-      "50% decrease in project delivery time"
+      "Accelerated the design process, enabling on-time delivery of both apps.",
+      "Reduced design-review rework through quality-first refinements.",
+      "Boosted stakeholder confidence with polished, ready-to-ship designs.",
+      "Contributed directly to the successful completion of the final iteration."
     ],
     features: [
-      "Adaptive interface based on user role and context",
-      "Comprehensive design system with 120+ components",
-      "Smart project automation and suggestions",
-      "Unified communication and file sharing",
-      "Advanced permissions and workflow customization",
-      "Cross-platform consistency (web, mobile, desktop)"
+      "Pixel-perfect refinements on both mobile and web app screens.",
+      "Improved navigation consistency, hierarchy, and error handling.",
+      "Streamlined design review process via stakeholder presentations.",
+      "Delivered final high-quality screens with minimal rework."
     ]
   }
 };

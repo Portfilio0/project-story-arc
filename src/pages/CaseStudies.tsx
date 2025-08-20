@@ -28,11 +28,11 @@ const allCaseStudies = [
   },
   {
     id: 3,
-    title: "SaaS Team Collaboration Platform",
+    title: "UBank",
     description: "Designed enterprise workflow solution through design thinking methodology, increasing team productivity by 45%.",
     image: caseStudy3,
-    tags: ["Design Systems", "User Personas", "Wireframing", "Adobe XD"],
-    slug: "saas-platform",
+    tags: ["Figma"],
+    slug: "ubank",
     year: "2024"
   }
 ];
