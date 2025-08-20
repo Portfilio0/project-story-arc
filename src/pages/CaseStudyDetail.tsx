@@ -25,7 +25,7 @@ const caseStudyData = {
     year: "2024",
     duration: "4 months",
     role: "Lead UX Designer & Researcher",
-    challenge: "The existing app faced major usability issues:\nConfusing navigation that led to high user drop-off.\nComplicated login and checkout flows. \nLack of engaging elements such as animations and micro-interactions.",
+    challenge: "The existing app faced major usability issues:\n- Confusing navigation that led to high user drop-off.\n- Complicated login and checkout flows. \n- Lack of engaging elements such as animations and micro-interactions.",
     solution: "Revamped core user flows, simplifying navigation and reducing friction in login and checkout. Applied Material Design principles to establish a scalable, consistent design system. Introduced animations and micro-interactions to improve user engagement. Delivered responsive layouts for mobile and web, ensuring cross-device usability.",
     results: [
       "Improved task completion and reduced checkout abandonment.",
@@ -208,7 +208,7 @@ const CaseStudyDetail = () => {
               <div className="space-y-16">
                 <div>
                   <h3 className="text-3xl font-bold mb-6">The Challenge</h3>
-                  <p className="text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
+                  <p className="text-lg leading-relaxed text-muted-foreground">
                     {study.challenge}
                   </p>
                 </div>
