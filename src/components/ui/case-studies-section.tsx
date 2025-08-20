@@ -39,7 +39,7 @@ const CaseStudiesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            My Work
+            <span className="bg-gradient-primary bg-clip-text text-transparent">My Work</span>
           </h2>
         </div>
         
