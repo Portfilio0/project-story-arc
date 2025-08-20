@@ -21,7 +21,7 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-10 animate-fade-in">
             <span className="bg-gradient-primary bg-clip-text text-transparent">Noor Fatimah</span>
             <br />UI/UX Designer & Researcher
           </h1>
