@@ -11,7 +11,7 @@ const testimonials = [
   {
     name: "Usama Hafeez",
     role: "Co-founder, Petmera",
-    content: "Noor designed PetMera from scratch across mobile, tablet, and web screens. Her attention to detail and intuitive designs made the app highly usable and ensured a smooth development process.",
+    content: "Noor designed PetMera from scratch for 3 different screen sizes. Her attention to detail and intuitive designs made the app highly usable and ensured a smooth development process.",
     rating: 5
   },
   {
