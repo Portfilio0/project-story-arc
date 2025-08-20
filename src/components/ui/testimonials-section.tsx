@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: "Salman AlQahtani",
     role: "Project Manager, Beatask",
-    content: "Outstanding collaboration and design thinking. Noor redesigned key screens of our Beatask app, including the home, product listing, and checkout pages. The new interface reduced onboarding time by 50% and our users love the intuitive workflow.  Her attention to detail and intuitive designs improved usability and made development smooth. Highly recommended.",
+    content: "Outstanding collaboration and design thinking. Noor redesigned key screens of our Beatask app, including the home, product listing, and checkout pages. The new interface reduced onboarding time by 50%.",
     rating: 5
   }
 ];
