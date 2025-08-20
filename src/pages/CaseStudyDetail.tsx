@@ -15,7 +15,7 @@ import caseStudy3DesignSystem from "@/assets/case-study-3-design-system.jpg";
 import caseStudy3Personas from "@/assets/case-study-3-personas.jpg";
 
 const caseStudyData = {
-  "analytics-dashboard": {
+  "beatask": {
     title: "Beatask",
     subtitle: "Marketplace App Revamp",
     description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",

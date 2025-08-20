@@ -14,7 +14,7 @@ const allCaseStudies = [
     description: "Redesigned complex financial data interface through user research and iterative testing, improving task completion rates by 65%.",
     image: caseStudy1,
     tags: ["User Research", "Figma", "Prototyping", "Usability Testing"],
-    slug: "analytics-dashboard",
+    slug: "beatask",
     year: "2024"
   },
   {
