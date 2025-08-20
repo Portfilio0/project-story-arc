@@ -41,32 +41,28 @@ const caseStudyData = {
       "Engaging interactions with animations and transitions."
     ]
   },
-  "ecommerce-app": {
-    title: "E-Commerce Mobile Experience",
-    subtitle: "Shopping Journey Optimization",
-    description: "Redesigned mobile shopping experience using customer journey mapping and behavioral analytics to create a friction-free purchase flow.",
+  "braid": {
+    title: "Braid",
+    subtitle: "Web App Revamp",
+    description: "Led the redesign of Braid’s web app, focusing on improving usability, hierarchy, and visual consistency across financial workflows. Revamped the OFAC compliance page, transaction details page, and dashboard to streamline navigation and enhance clarity.",
     image: caseStudy2,
     images: [caseStudy2, caseStudy2Journey, caseStudy2Testing],
-    tags: ["Mobile UX", "Journey Mapping", "A/B Testing", "Sketch", "User Analytics"],
-    year: "2023",
-    duration: "6 months",
-    role: "Senior UX Designer & Researcher",
-    challenge: "The mobile app had a 68% cart abandonment rate and low user retention. Customer feedback revealed frustration with navigation, checkout flow, and product discovery. The brand was losing market share to competitors.",
-    solution: "I conducted user interviews, analyzed behavioral data, and created detailed customer journey maps. Designed and tested multiple checkout flow prototypes, simplified navigation through card sorting, and implemented personalized product recommendations.",
+    tags: ["UX", "Figma"],
+    year: "2025",
+    duration: "4 months",
+    role: "UI UX Designer & Researcher",
+    challenge: "The web app faced several UX pain points:\n- Complex navigation across financial workflows.\n- Poor hierarchy and cluttered layouts in dashboard and transaction pages.\n- Compliance-heavy OFAC page lacked clarity and usability.",
+    solution: "- Redesigned the dashboard to provide a cleaner overview and prioritize essential information.\n- Improved transaction details pages by simplifying layouts and enhancing readability.\n- Revamped the OFAC compliance page for better usability and clearer action states.\n- Applied consistent design patterns to reduce cognitive load and improve overall flow.",
     results: [
-      "40% reduction in cart abandonment rate",
-      "35% increase in mobile conversion rates",
-      "50% improvement in user session duration",
-      "4.8/5 average app store rating (up from 3.2/5)",
-      "25% increase in repeat purchase behavior"
+      "Reduced user drop-off from complex workflows.",
+      "Increased efficiency in reviewing transactions and compliance checks.",
+      "Enhanced visual consistency and usability, improving customer satisfaction."
     ],
     features: [
-      "Streamlined checkout flow (6 steps to 3)",
-      "Intelligent product recommendation engine",
-      "Visual search and filtering system",
-      "One-touch reordering functionality",
-      "Personalized wishlist with sharing",
-      "Progressive web app capabilities"
+      "Streamlined dashboard with intuitive hierarchy.",
+      "Optimized transaction details with improved structure.",
+      "User-friendly OFAC page aligned with compliance standards.",
+      "High-fidelity wireframes and interactive prototypes for seamless developer handoff."
     ]
   },
   "saas-platform": {

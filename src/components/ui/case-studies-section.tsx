@@ -17,11 +17,11 @@ const caseStudies = [
   },
   {
     id: 2,
-    title: "E-Commerce Mobile Experience",
-    description: "Created seamless shopping journey reducing cart abandonment by 40% through user-centered design and A/B testing.",
+    title: "Braid",
+    description: "Led the redesign of Braid’s web app, focusing on improving usability, hierarchy, and visual consistency across financial workflows. Revamped the OFAC compliance page, transaction details page, and dashboard to streamline navigation and enhance clarity.",
     image: caseStudy2,
-    tags: ["Mobile UX", "Journey Mapping", "A/B Testing"],
-    slug: "ecommerce-app"
+    tags: ["UX", "Figma"],
+    slug: "braid"
   },
   {
     id: 3,
