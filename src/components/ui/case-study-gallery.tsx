@@ -58,8 +58,8 @@ const CaseStudyGallery = ({ images, title }: CaseStudyGalleryProps) => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-4" />
-          <CarouselNext className="right-4" />
+          <CarouselPrevious className="left-4 hidden md:flex" />
+          <CarouselNext className="right-4 hidden md:flex" />
         </Carousel>
 
         {/* Thumbnail Navigation */}
