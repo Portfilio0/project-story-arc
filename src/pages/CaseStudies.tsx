@@ -10,12 +10,12 @@ import caseStudy3 from "@/assets/case-study-3.jpg";
 const allCaseStudies = [
   {
     id: 1,
-    title: "FinTech Analytics Dashboard",
-    description: "Redesigned complex financial data interface through user research and iterative testing, improving task completion rates by 65%.",
+    title: "Beatask",
+    description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
     image: caseStudy1,
     tags: ["User Research", "Figma", "Prototyping", "Usability Testing"],
     slug: "beatask",
-    year: "2024"
+    year: "2025"
   },
   {
     id: 2,
