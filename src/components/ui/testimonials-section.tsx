@@ -3,20 +3,20 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Product Manager, FinanceFlow",
+    name: "Jake Zhu",
+    role: "CPTO, Braid",
     content: "The user research and design process was thorough. Our dashboard redesign increased user engagement by 60% and reduced support tickets significantly.",
     rating: 5
   },
   {
-    name: "Michael Chen",
-    role: "VP of Product, ShopEase",
-    content: "Exceptional UX design work. The mobile app redesign boosted our conversion rates by 35% and customer satisfaction scores reached an all-time high.",
+    name: "Usama Hafeez",
+    role: "Co-founder, Petmera",
+    content: "Noor played a key role in designing our PetMera marketplace. Her attention to detail, creativity, and understanding of user needs helped us build a consistent and intuitive app experience. The responsive, mobile-first designs and interactive prototypes she delivered made development smooth and ensured a product our users love. Highly recommended for any UX/UI project.",
     rating: 5
   },
   {
-    name: "Emily Rodriguez",
-    role: "CTO, TeamSync Solutions",
+    name: "Salman AlQahtani",
+    role: "Project Manager, Beatask",
     content: "Outstanding collaboration and design thinking. The new interface reduced onboarding time by 50% and our users love the intuitive workflow.",
     rating: 5
   }
