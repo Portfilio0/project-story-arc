@@ -16,31 +16,27 @@ import caseStudy3Personas from "@/assets/case-study-3-personas.jpg";
 
 const caseStudyData = {
   "analytics-dashboard": {
-    title: "FinTech Analytics Dashboard",
-    subtitle: "Financial Data Interface Redesign",
-    description: "Redesigned a complex financial analytics platform to improve usability and decision-making speed for financial professionals through user-centered design.",
+    title: "Beatask",
+    subtitle: "Marketplace App Revamp",
+    description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
     image: caseStudy1,
     images: [caseStudy1, caseStudy1Wireframe, caseStudy1Prototype],
     tags: ["User Research", "Figma", "Prototyping", "Usability Testing", "Data Visualization"],
     year: "2024",
     duration: "4 months",
     role: "Lead UX Designer & Researcher",
-    challenge: "Financial professionals were struggling with a complex legacy dashboard that took 15+ minutes to generate basic reports. User research revealed 78% of users found the interface confusing and error-prone, leading to costly decision delays.",
-    solution: "I conducted extensive user interviews, journey mapping, and usability testing to redesign the information architecture. Created interactive prototypes in Figma, established a new design system, and implemented progressive disclosure to simplify complex workflows.",
+    challenge: "The existing app faced major usability issues:/nConfusing navigation that led to high user drop-off.\nComplicated login and checkout flows. \nLack of engaging elements such as animations and micro-interactions.",
+    solution: "Revamped core user flows, simplifying navigation and reducing friction in login and checkout. Applied Material Design principles to establish a scalable, consistent design system. Introduced animations and micro-interactions to improve user engagement. Delivered responsive layouts for mobile and web, ensuring cross-device usability.",
     results: [
-      "65% improvement in task completion rates",
-      "80% reduction in user errors during report generation",
-      "Time to insight decreased from 15 minutes to 3 minutes",
-      "User satisfaction increased from 2.1/5 to 4.7/5",
-      "95% of users completed onboarding without support"
+      "Improved task completion and reduced checkout abandonment.",
+      "Enhanced user engagement through micro-interactions.",
+      "Delivered a modern app experience that aligned with the client’s vision and business goals."
     ],
     features: [
-      "Intuitive dashboard with progressive disclosure",
-      "Custom data visualization components",
-      "Smart filtering and search functionality",
-      "Role-based interface customization",
-      "Interactive onboarding flow",
-      "Responsive design for mobile analysts"
+      "Clean, intuitive navigation system.",
+      "Streamlined login and checkout flow.",
+      "Scalable design system based on Material Design.",
+      "Engaging interactions with animations and transitions."
     ]
   },
   "ecommerce-app": {
