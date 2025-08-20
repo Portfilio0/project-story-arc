@@ -13,7 +13,7 @@ const caseStudies = [
     description: "Redesigned complex financial data interface, improving user task completion by 65% through intuitive information architecture.",
     image: caseStudy1,
     tags: ["User Research", "Figma", "Prototyping"],
-    slug: "analytics-dashboard"
+    slug: "beatask"
   },
   {
     id: 2,
