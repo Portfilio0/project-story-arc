@@ -208,7 +208,7 @@ const CaseStudyDetail = () => {
               <div className="space-y-16">
                 <div>
                   <h3 className="text-3xl font-bold mb-6">The Challenge</h3>
-                  <p className="text-lg leading-relaxed text-muted-foreground">
+                  <p className="text-lg leading-relaxed text-muted-foreground whitespace-pre-line">
                     {study.challenge}
                   </p>
                 </div>
