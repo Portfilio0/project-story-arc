@@ -22,9 +22,9 @@ const caseStudyData = {
     image: caseStudy1,
     images: [caseStudy1, caseStudy1Wireframe, caseStudy1Prototype],
     tags: ["User Research", "Figma", "Prototyping", "Usability Testing", "Data Visualization"],
-    year: "2024",
-    duration: "4 months",
-    role: "Lead UX Designer & Researcher",
+    year: "2025",
+    duration: "3 months",
+    role: "UI UX Designer",
     challenge: "The existing app faced major usability issues:\n- Confusing navigation that led to high user drop-off.\n- Complicated login and checkout flows. \n- Lack of engaging elements such as animations and micro-interactions.",
     solution: "- Revamped core user flows, simplifying navigation and reducing friction in login and checkout.\n- Applied Material Design principles to establish a scalable, consistent design system.\n- Introduced animations and micro-interactions to improve user engagement.\n- Delivered responsive layouts for mobile and web, ensuring cross-device usability.",
     results: [
