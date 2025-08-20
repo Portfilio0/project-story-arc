@@ -10,7 +10,7 @@ const caseStudies = [
   {
     id: 1,
     title: "Beatask",
-    description: "Redesigned complex financial data interface, improving user task completion by 65% through intuitive information architecture.",
+    description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
     image: caseStudy1,
     tags: ["User Research", "Figma", "Prototyping"],
     slug: "beatask"
