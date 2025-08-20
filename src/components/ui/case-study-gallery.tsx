@@ -41,7 +41,7 @@ const CaseStudyGallery = ({ images, title }: CaseStudyGalleryProps) => {
   return (
     <>
       <div className="w-full">
-        <Carousel className="w-full">
+        <Carousel className="w-full" opts={{ loop: true }}>
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem key={index}>
