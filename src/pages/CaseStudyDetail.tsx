@@ -91,7 +91,7 @@ const caseStudyData = {
     ]
   },
   "meezan-bank": {
-    title: "Meezan Bank",
+    title: "Meezan Bank (Case Study)",
     subtitle: "Banking App Redesign",
     description: "The banking app redesign aimed to streamline the payment process by introducing a Quick Pay feature and enhancing beneficiary management. The solution reduced friction in transactions and improved user satisfaction by allowing direct payments without the need to save every recipient as a beneficiary.",
     image: ubank1,
@@ -235,7 +235,8 @@ const CaseStudyDetail = () => {
                 </div>
                 
                 {/* Features */}
-                <div>
+                {
+                  study.features.length > 0 && (<div>
                   <h3 className="text-3xl font-bold mb-6">Key Features</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {study.features.map((feature, index) => (
@@ -245,7 +246,8 @@ const CaseStudyDetail = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div>)
+                }
                 
                 {/* Results */}
                 <div>

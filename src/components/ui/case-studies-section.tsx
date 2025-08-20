@@ -33,7 +33,7 @@ const caseStudies = [
   },
   {
     id: 4,
-    title: "Meezan Bank",
+    title: "Meezan Bank (Case Study)",
     description: "The banking app redesign aimed to streamline the payment process by introducing a Quick Pay feature and enhancing beneficiary management. The solution reduced friction in transactions and improved user satisfaction by allowing direct payments without the need to save every recipient as a beneficiary.",
     image: ubank1,
     tags: ["Figma", "UX Research"],
