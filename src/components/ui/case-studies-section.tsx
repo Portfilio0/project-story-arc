@@ -12,7 +12,7 @@ const caseStudies = [
     title: "Beatask",
     description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
     image: caseStudy1,
-    tags: ["User Research", "Figma", "Prototyping"],
+    tags: ["Figma", "Animations"],
     slug: "beatask"
   },
   {

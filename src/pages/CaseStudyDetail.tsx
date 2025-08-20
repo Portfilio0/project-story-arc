@@ -21,7 +21,7 @@ const caseStudyData = {
     description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
     image: caseStudy1,
     images: [caseStudy1, caseStudy1Wireframe, caseStudy1Prototype],
-    tags: ["User Research", "Figma", "Prototyping", "Usability Testing", "Data Visualization"],
+    tags: ["Figma", "Animations"],
     year: "2025",
     duration: "3 months",
     role: "UI UX Designer",
