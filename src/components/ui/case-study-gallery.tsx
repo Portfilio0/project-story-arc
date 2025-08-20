@@ -120,7 +120,7 @@ const CaseStudyGallery = ({ images, title }: CaseStudyGalleryProps) => {
             <img
               src={selectedImage}
               alt={`${title} - Full size`}
-              className="max-w-full max-h-full object-contain rounded-lg"
+              className="w-full h-full object-contain rounded-lg"
             />
             
             {images.length > 1 && (
