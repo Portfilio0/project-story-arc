@@ -11,7 +11,7 @@ const allCaseStudies = [
   {
     id: 1,
     title: "Beatask",
-    description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
+    description: "Worked on revamping Beatask, a marketplace app connecting users with helpers and cleaners. Focused on improving the log-in flow and fixing critical UX issues that were causing friction in user onboarding and engagement.",
     image: beatask2,
     tags: ["Figma", "Animations"],
     slug: "beatask",
