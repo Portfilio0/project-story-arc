@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import CaseStudyGallery from "@/components/ui/case-study-gallery";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
-import caseStudy1 from "@/assets/case-study-1.jpg";
-import caseStudy1Wireframe from "@/assets/case-study-1-wireframe.jpg";
-import caseStudy1Prototype from "@/assets/case-study-1-prototype.jpg";
+import beatask1 from "@/assets/beatask-1.jpeg";
+import beatask2 from "@/assets/beatask-2.jpeg";
+import beatask3 from "@/assets/beatask-3.jpeg";
+import beatask4 from "@/assets/beatask-4.jpeg";
+import beatask5 from "@/assets/beatask-5.jpeg";
 import caseStudy2 from "@/assets/case-study-2.jpg";
 import caseStudy2Journey from "@/assets/case-study-2-journey.jpg";
 import caseStudy2Testing from "@/assets/case-study-2-testing.jpg";
@@ -19,8 +21,8 @@ const caseStudyData = {
     title: "Beatask",
     subtitle: "Marketplace App Revamp",
     description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
-    image: caseStudy1,
-    images: [caseStudy1, caseStudy1Wireframe, caseStudy1Prototype],
+    image: beatask2,
+    images: [beatask2, beatask1, beatask3, beatask4, beatask5],
     tags: ["Figma", "Animations"],
     year: "2025",
     duration: "3 months",
