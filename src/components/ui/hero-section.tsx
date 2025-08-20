@@ -10,15 +10,6 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Portfolio hero background" 
-          className="w-full h-full object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-primary opacity-10" />
-      </div>
-      
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 animate-fade-in">
