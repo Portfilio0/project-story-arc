@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import beatask2 from "@/assets/beatask-2.jpeg";
-import caseStudy2 from "@/assets/case-study-2.jpg";
-import caseStudy3 from "@/assets/case-study-3.jpg";
+import braid1 from "@/assets/braid-1.jpeg";
+import ubank1 from "@/assets/ubank-1.jpeg";
 
 const allCaseStudies = [
   {
@@ -21,7 +21,7 @@ const allCaseStudies = [
     id: 2,
     title: "Braid",
     description: "Led the redesign of Braid’s web app, focusing on improving usability, hierarchy, and visual consistency across financial workflows. Revamped the OFAC compliance page, transaction details page, and dashboard to streamline navigation and enhance clarity.",
-    image: caseStudy2,
+    image: braid1,
     tags: ["UX", "Figma"],
     slug: "braid",
     year: "2025"
@@ -30,7 +30,7 @@ const allCaseStudies = [
     id: 3,
     title: "UBank",
     description: "Designed enterprise workflow solution through design thinking methodology, increasing team productivity by 45%.",
-    image: caseStudy3,
+    image: ubank1,
     tags: ["Figma"],
     slug: "ubank",
     year: "2024"

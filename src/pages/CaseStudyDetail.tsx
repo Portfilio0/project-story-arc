@@ -9,12 +9,12 @@ import beatask2 from "@/assets/beatask-2.jpeg";
 import beatask3 from "@/assets/beatask-3.jpeg";
 import beatask4 from "@/assets/beatask-4.jpeg";
 import beatask5 from "@/assets/beatask-5.jpeg";
-import caseStudy2 from "@/assets/case-study-2.jpg";
-import caseStudy2Journey from "@/assets/case-study-2-journey.jpg";
-import caseStudy2Testing from "@/assets/case-study-2-testing.jpg";
-import caseStudy3 from "@/assets/case-study-3.jpg";
-import caseStudy3DesignSystem from "@/assets/case-study-3-design-system.jpg";
-import caseStudy3Personas from "@/assets/case-study-3-personas.jpg";
+import ubank1 from "@/assets/ubank-1.jpeg";
+import ubank2 from "@/assets/ubank-2.jpeg";
+import ubank3 from "@/assets/ubank-3.jpeg";
+import ubank4 from "@/assets/ubank-4.jpeg";
+import braid1 from "@/assets/braid-1.jpeg";
+import braid2 from "@/assets/braid-2.jpeg";
 
 const caseStudyData = {
   "beatask": {
@@ -45,8 +45,8 @@ const caseStudyData = {
     title: "Braid",
     subtitle: "Web App Revamp",
     description: "Led the redesign of Braid’s web app, focusing on improving usability, hierarchy, and visual consistency across financial workflows. Revamped the OFAC compliance page, transaction details page, and dashboard to streamline navigation and enhance clarity.",
-    image: caseStudy2,
-    images: [caseStudy2, caseStudy2Journey, caseStudy2Testing],
+    image: braid1,
+    images: [braid1, braid2],
     tags: ["UX", "Figma"],
     year: "2025",
     duration: "4 months",
@@ -69,8 +69,8 @@ const caseStudyData = {
     title: "UBank",
     subtitle: "Mobile & Web App (Final Iteration Support)",
     description: "Contributed to Ubank’s mobile and web app project during its final iteration, where progress had slowed. Focused on ensuring design quality and consistency across platforms, while accelerating delivery through attention to detail and stakeholder alignment.",
-    image: caseStudy3,
-    images: [caseStudy3, caseStudy3DesignSystem, caseStudy3Personas],
+    image: ubank1,
+    images: [ubank1, ubank2, ubank3, ubank4],
     tags: ["Figma"],
     year: "2024",
     duration: "4 months",
