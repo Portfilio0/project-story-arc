@@ -21,10 +21,12 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">Noor Fatimah</span>
-            <br />UI/UX Designer & Researcher
-          </h1>
+          <div className="mb-6 animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4">
+              <span className="bg-gradient-primary bg-clip-text text-transparent">Noor Fatimah</span>
+            </h1>
+            <h2 className="text-5xl md:text-7xl font-bold">UI/UX Designer & Researcher</h2>
+          </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate-slide-up max-w-2xl mx-auto">
             Creating intuitive, user-centered digital experiences through research, prototyping, and data-driven design solutions.
