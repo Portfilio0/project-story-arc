@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-import caseStudy1 from "@/assets/case-study-1.jpg";
+import beatask2 from "@/assets/beatask-2.jpg";
 import caseStudy2 from "@/assets/case-study-2.jpg";
 import caseStudy3 from "@/assets/case-study-3.jpg";
 
@@ -11,7 +11,7 @@ const caseStudies = [
     id: 1,
     title: "Beatask",
     description: "Redesigned a marketplace app for pet owners, focusing on improving navigation, login, and checkout experiences. Worked directly with the founding team for a year, delivering a mobile-first, user-friendly shopping experience.",
-    image: caseStudy1,
+    image: beatask2,
     tags: ["Figma", "Animations"],
     slug: "beatask"
   },
