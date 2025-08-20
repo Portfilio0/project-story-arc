@@ -9,11 +9,11 @@ import caseStudy3 from "@/assets/case-study-3.jpg";
 const caseStudies = [
   {
     id: 1,
-    title: "FinTech Analytics Dashboard",
+    title: "Beatask",
     description: "Redesigned complex financial data interface, improving user task completion by 65% through intuitive information architecture.",
     image: caseStudy1,
     tags: ["User Research", "Figma", "Prototyping"],
-    slug: "beatask"
+    slug: "analytics-dashboard"
   },
   {
     id: 2,
