@@ -72,7 +72,7 @@ const CaseStudies = () => {
                       <img 
                         src={study.image} 
                         alt={study.title}
-                        className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-64 object-contain transition-transform duration-500 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
                       <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">
