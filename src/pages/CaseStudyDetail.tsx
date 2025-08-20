@@ -182,16 +182,6 @@ const CaseStudyDetail = () => {
                     {study.description}
                   </p>
                   
-                  <div className="flex flex-col sm:flex-row gap-4 animate-slide-up">
-                    <Button className="bg-gradient-primary hover:shadow-glow">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
-                    </Button>
-                    <Button variant="outline" className="border-primary/20 hover:border-primary">
-                      <Github className="mr-2 h-4 w-4" />
-                      View Code
-                    </Button>
-                  </div>
                 </div>
                 
                 <div className="animate-fade-in">
