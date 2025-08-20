@@ -102,7 +102,7 @@ const CaseStudyDetail = () => {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
           <Link to="/case-studies">
-            <Button>Back to Case Studies</Button>
+            <Button>Back to Projects</Button>
           </Link>
         </div>
       </div>
@@ -120,7 +120,7 @@ const CaseStudyDetail = () => {
             <div className="max-w-4xl mx-auto">
               <Link to="/case-studies" className="inline-flex items-center text-muted-foreground hover:text-primary transition-smooth mb-8">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Case Studies
+                Back to Projects
               </Link>
               
               <div className="space-y-12">
