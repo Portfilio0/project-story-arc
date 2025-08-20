@@ -85,7 +85,7 @@ const CaseStudiesSection = () => {
                       variant="ghost" 
                       className="py-1 px-2 h-auto font-medium text-primary hover:text-white group/btn"
                     >
-                      View Case Study
+                      View Project
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
                     </Button>
                   </Link>

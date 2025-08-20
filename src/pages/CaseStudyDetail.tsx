@@ -100,7 +100,7 @@ const CaseStudyDetail = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Case Study Not Found</h1>
+          <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
           <Link to="/case-studies">
             <Button>Back to Case Studies</Button>
           </Link>
