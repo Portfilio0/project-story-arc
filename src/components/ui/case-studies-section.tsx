@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import beatask2 from "@/assets/beatask-2.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import ubank1 from "@/assets/ubank-1.jpeg";
+import mbank1 from "@/assets/meezan-bank-1.jpeg";
 
 const caseStudies = [
   {
@@ -35,7 +36,7 @@ const caseStudies = [
     id: 4,
     title: "Meezan Bank (Case Study)",
     description: "The banking app redesign aimed to streamline the payment process by introducing a Quick Pay feature and enhancing beneficiary management. The solution reduced friction in transactions and improved user satisfaction by allowing direct payments without the need to save every recipient as a beneficiary.",
-    image: ubank1,
+    image: mbank1,
     tags: ["Figma", "UX Research"],
     slug: "meezan-bank"
   }
