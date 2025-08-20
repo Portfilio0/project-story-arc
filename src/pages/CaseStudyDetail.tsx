@@ -101,7 +101,7 @@ const caseStudyData = {
     duration: "1 months",
     role: "UI UX Desginer",
     challenge: "Users of the current banking app face frustration due to the mandatory requirement of adding a beneficiary before making payments or transfers. This process is cumbersome and leads to a cluttered list of unnecessary beneficiaries, particularly when users only need to make one-time payments.",
-    solution: "- Audited all mobile and web app flows with meticulous attention to detail.\n- Corrected small but critical errors that affected hierarchy, alignment, and usability.\n- Ensured consistency across platforms (mobile ↔ web).\n- Presented polished screens directly to stakeholders, speeding up feedback cycles.\n- Collaborated closely with the team to quickly implement feedback and finalize designs.",
+    solution: "Objective 1.\nTo enhance the user experience by allowing direct payments without the need to add a beneficiary first, streamline beneficiary management.\n\nObjective 2.\nTo ensure that only important contacts are saved as beneficiaries while maintaining a transaction history for easy tracking.",
     results: [
       "User testing revealed that the new features significantly reduced the time taken to complete payments.", 
       "80% of users finding the Quick Pay option more efficient than previous methods."
