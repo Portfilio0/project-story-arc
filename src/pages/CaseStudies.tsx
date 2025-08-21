@@ -3,17 +3,17 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import beatask2 from "@/assets/beatask-2.jpeg";
+import beatask3 from "@/assets/beatask-3.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import ubank1 from "@/assets/ubank-1.jpeg";
-import mbank1 from "@/assets/meezan-bank-1.jpeg";
+import mbank15 from "@/assets/meezan-bank-15.jpeg";
 
 const allCaseStudies = [
   {
     id: 1,
     title: "Beatask",
     description: "Worked on revamping Beatask, a marketplace app connecting users with helpers and cleaners. Focused on improving the log-in flow and fixing critical UX issues that were causing friction in user onboarding and engagement.",
-    image: beatask2,
+    image: beatask3,
     tags: ["Figma", "Animations"],
     slug: "beatask",
     year: "2025"
@@ -40,7 +40,7 @@ const allCaseStudies = [
     id: 4,
     title: "Meezan Bank (Case Study)",
     description: "The banking app redesign aimed to streamline the payment process by introducing a Quick Pay feature and enhancing beneficiary management. The solution reduced friction in transactions and improved user satisfaction by allowing direct payments without the need to save every recipient as a beneficiary.",
-    image: mbank1,
+    image: mbank15,
     tags: ["Figma", "UX Research"],
     slug: "meezan-bank",
     year: "2023"
@@ -82,7 +82,7 @@ const CaseStudies = () => {
                       <img 
                         src={study.image} 
                         alt={study.title}
-                        className="w-full h-64 object-contain transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
                       <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium">
