@@ -50,7 +50,7 @@ const CaseStudyGallery = ({ images, title }: CaseStudyGalleryProps) => {
                     <img
                       src={image}
                       alt={`${title} - Image ${index + 1}`}
-                      className="w-full h-64 md:h-96 object-contain rounded-lg shadow-elegant cursor-pointer transition-transform duration-300 hover:scale-105"
+                      className="w-full h-64 md:h-96 object-fill rounded-lg shadow-elegant cursor-pointer transition-transform duration-300 hover:scale-105"
                       onClick={() => openLightbox(image, index)}
                     />
                   </CardContent>
