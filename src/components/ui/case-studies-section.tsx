@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-import beatask2 from "@/assets/beatask-2.jpeg";
+import beatask3 from "@/assets/beatask-3.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import ubank1 from "@/assets/ubank-1.jpeg";
 import mbank1 from "@/assets/meezan-bank-1.jpeg";
