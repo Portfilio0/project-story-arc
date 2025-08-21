@@ -10,7 +10,7 @@ import mbank1 from "@/assets/meezan-bank-1.jpeg";
 const caseStudies = [
   {
     id: 1,
-    title: "Beatask",
+    title: "Beatask11",
     description: "Worked on revamping Beatask, a marketplace app connecting users with helpers and cleaners. Focused on improving the log-in flow and fixing critical UX issues that were causing friction in user onboarding and engagement.",
     image: beatask2,
     tags: ["Figma", "Animations"],
