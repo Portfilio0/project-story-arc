@@ -10,9 +10,9 @@ import mbank1 from "@/assets/meezan-bank-1.jpeg";
 const caseStudies = [
   {
     id: 1,
-    title: "Beatask11",
+    title: "Beatask",
     description: "Worked on revamping Beatask, a marketplace app connecting users with helpers and cleaners. Focused on improving the log-in flow and fixing critical UX issues that were causing friction in user onboarding and engagement.",
-    image: beatask2,
+    image: beatask3,
     tags: ["Figma", "Animations"],
     slug: "beatask"
   },
@@ -64,7 +64,7 @@ const CaseStudiesSection = () => {
                   <img 
                     src={study.image} 
                     alt={study.title}
-                    className="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
                 </div>
