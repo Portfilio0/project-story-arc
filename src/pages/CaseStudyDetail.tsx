@@ -21,6 +21,7 @@ import ubank4 from "@/assets/ubank-4.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import braid2 from "@/assets/braid-2.jpeg";
 import mbank15 from "@/assets/meezan-bank-15.jpeg";
+import talenthunt1 from "@/assets/talenthunt-1.png";
 
 const caseStudyData = {
   "beatask": {
@@ -117,6 +118,30 @@ const caseStudyData = {
       "80% of users finding the Quick Pay option more efficient than previous methods."
     ],
     features: [
+    ]
+  },
+  "talent-hunt": {
+    title: "Talent Hunt",
+    subtitle: "Talent Discovery Platform",
+    description: "Talent Hunt is a curated space for discovering emerging models and creators. The design highlights visual storytelling through clean layouts, bold imagery, and effortless navigation allowing users to explore talent profiles with ease and make quick, informed decisions.",
+    image: talenthunt1,
+    images: [talenthunt1],
+    pdfLink: "/talenthunt-case-study.pdf",
+    tags: ["Figma", "Web Design"],
+    year: "2024",
+    duration: "2 months",
+    role: "UI UX Designer",
+    challenge: "Creating a platform that showcases talent effectively while maintaining a clean, professional aesthetic that doesn't overwhelm users with information.",
+    solution: "Designed a visually-driven interface with bold imagery, clean layouts, and intuitive navigation that allows users to quickly browse and discover talent profiles.",
+    results: [
+      "Clean, visually engaging platform for talent discovery.",
+      "Streamlined user experience for quick decision-making."
+    ],
+    features: [
+      "Visual-first talent profiles.",
+      "Clean, modern layout design.",
+      "Effortless navigation system.",
+      "Bold imagery presentation."
     ]
   }
 };
