@@ -20,20 +20,6 @@ import ubank3 from "@/assets/ubank-3.jpeg";
 import ubank4 from "@/assets/ubank-4.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import braid2 from "@/assets/braid-2.jpeg";
-import mbank1 from "@/assets/meezan-bank-1.jpeg";
-import mbank2 from "@/assets/meezan-bank-2.jpeg";
-import mbank3 from "@/assets/meezan-bank-3.jpeg";
-import mbank4 from "@/assets/meezan-bank-4.jpeg";
-import mbank5 from "@/assets/meezan-bank-5.jpeg";
-import mbank6 from "@/assets/meezan-bank-6.jpeg";
-import mbank7 from "@/assets/meezan-bank-7.jpeg";
-import mbank8 from "@/assets/meezan-bank-8.jpeg";
-import mbank9 from "@/assets/meezan-bank-9.jpeg";
-import mbank10 from "@/assets/meezan-bank-10.jpeg";
-import mbank11 from "@/assets/meezan-bank-11.jpeg";
-import mbank12 from "@/assets/meezan-bank-12.jpeg";
-import mbank13 from "@/assets/meezan-bank-13.jpeg";
-import mbank14 from "@/assets/meezan-bank-14.jpeg";
 import mbank15 from "@/assets/meezan-bank-15.jpeg";
 
 const caseStudyData = {
@@ -47,6 +33,7 @@ const caseStudyData = {
     year: "2025",
     duration: "3 months",
     role: "UI UX Designer",
+    pdfLink: undefined,
     challenge: "The existing app faced major usability issues:\n- Confusing navigation that led to high user drop-off.\n- Complicated login and checkout flows. \n- Lack of engaging elements such as animations and micro-interactions.",
     solution: "- Revamped core user flows, simplifying navigation and reducing friction in login and checkout.\n- Applied Material Design principles to establish a scalable, consistent design system.\n- Introduced animations and micro-interactions to improve user engagement.\n- Delivered responsive layouts for mobile and web, ensuring cross-device usability.",
     results: [
@@ -71,6 +58,7 @@ const caseStudyData = {
     year: "2025",
     duration: "4 months",
     role: "UI UX Designer & Researcher",
+    pdfLink: undefined,
     challenge: "The web app faced several UX pain points:\n- Complex navigation across financial workflows.\n- Poor hierarchy and cluttered layouts in dashboard and transaction pages.\n- Compliance-heavy OFAC page lacked clarity and usability.",
     solution: "- Redesigned the dashboard to provide a cleaner overview and prioritize essential information.\n- Improved transaction details pages by simplifying layouts and enhancing readability.\n- Revamped the OFAC compliance page for better usability and clearer action states.\n- Applied consistent design patterns to reduce cognitive load and improve overall flow.",
     results: [
@@ -95,6 +83,7 @@ const caseStudyData = {
     year: "2024",
     duration: "4 months",
     role: "UI UX Desginer",
+    pdfLink: undefined,
     challenge: "- The project was lagging in its final iteration, with tight deadlines and stakeholder pressure.\n- Both mobile and web screens had usability inconsistencies and visual errors.\n- Delays in reviews risked missing the release timeline.",
     solution: "- Audited all mobile and web app flows with meticulous attention to detail.\n- Corrected small but critical errors that affected hierarchy, alignment, and usability.\n- Ensured consistency across platforms (mobile ↔ web).\n- Presented polished screens directly to stakeholders, speeding up feedback cycles.\n- Collaborated closely with the team to quickly implement feedback and finalize designs.",
     results: [
@@ -114,8 +103,9 @@ const caseStudyData = {
     title: "Meezan Bank (Case Study)",
     subtitle: "Banking App Redesign",
     description: "The banking app redesign aimed to streamline the payment process by introducing a Quick Pay feature and enhancing beneficiary management. The solution reduced friction in transactions and improved user satisfaction by allowing direct payments without the need to save every recipient as a beneficiary.",
-    image: mbank1,
-    images: [mbank1, mbank2, mbank3, mbank4, mbank5, mbank6, mbank7, mbank8, mbank9, mbank10, mbank11, mbank12, mbank13, mbank14, mbank15],
+    image: mbank15,
+    images: [mbank15],
+    pdfLink: "/meezan-bank-case-study.pdf",
     tags: ["Figma", "UX Research"],
     year: "2024",
     duration: "1 months",
@@ -187,6 +177,14 @@ const CaseStudyDetail = () => {
                     {study.description}
                   </p>
                   
+                  {study.pdfLink && (
+                    <a href={study.pdfLink} target="_blank" rel="noopener noreferrer">
+                      <Button className="gap-2">
+                        <ExternalLink className="h-4 w-4" />
+                        View Full Case Study (PDF)
+                      </Button>
+                    </a>
+                  )}
                 </div>
                 
                 <div className="animate-fade-in">
