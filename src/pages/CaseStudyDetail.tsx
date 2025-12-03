@@ -9,6 +9,7 @@ import beatask2 from "@/assets/beatask-2.jpeg";
 import beatask3 from "@/assets/beatask-3.jpeg";
 import beatask4 from "@/assets/beatask-4.jpeg";
 import beatask5 from "@/assets/beatask-5.jpeg";
+import beatask6 from "@/assets/beatask-6.png";
 import ubank1 from "@/assets/ubank-1.jpeg";
 import ubank2 from "@/assets/ubank-2.jpeg";
 import ubank3 from "@/assets/ubank-3.jpeg";
@@ -37,7 +38,7 @@ const caseStudyData = {
     subtitle: "Marketplace App Revamp",
     description: "Worked on revamping Beatask, a marketplace app connecting users with helpers and cleaners. Focused on improving the log-in flow and fixing critical UX issues that were causing friction in user onboarding and engagement.",
     image: beatask2,
-    images: [beatask2, beatask1, beatask3, beatask4, beatask5],
+    images: [beatask2, beatask1, beatask3, beatask4, beatask5, beatask6],
     tags: ["Figma", "Animations"],
     year: "2025",
     duration: "3 months",
