@@ -6,6 +6,7 @@ import beatask3 from "@/assets/beatask-3.jpeg";
 import braid1 from "@/assets/braid-1.jpeg";
 import ubank1 from "@/assets/ubank-1.jpeg";
 import mbank15 from "@/assets/meezan-bank-15.jpeg";
+import talenthunt1 from "@/assets/talenthunt-1.png";
 
 const caseStudies = [
   {
@@ -39,6 +40,14 @@ const caseStudies = [
     image: mbank15,
     tags: ["Figma", "UX Research"],
     slug: "meezan-bank"
+  },
+  {
+    id: 5,
+    title: "Talent Hunt",
+    description: "Talent Hunt is a curated space for discovering emerging models and creators. The design highlights visual storytelling through clean layouts, bold imagery, and effortless navigation allowing users to explore talent profiles with ease and make quick, informed decisions.",
+    image: talenthunt1,
+    tags: ["Figma", "Web Design"],
+    slug: "talent-hunt"
   }
 ];
 
